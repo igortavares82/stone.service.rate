@@ -37,3 +37,13 @@ Stone.Rating/obj/Debug/netcoreapp2.1/Stone.Rating.RazorAssemblyInfo.cs
 Stone.Rating/obj/Debug/netcoreapp2.1/Stone.Rating.AssemblyInfo.cs
 Stone.Rating/obj/Debug/netcoreapp2.1/Stone.Rate.WebApi.RazorAssemblyInfo.cs
 Stone.Rating/obj/Debug/netcoreapp2.1/Stone.Rate.WebApi.AssemblyInfo.cs
+Stone.Rate.Models/obj/project.assets.json
+Stone.Rate.Models/obj/Stone.Rate.Models.csproj.nuget.g.targets
+Stone.Rate.Models/obj/Stone.Rate.Models.csproj.nuget.g.props
+Stone.Rate.Models/obj/Debug/netstandard2.0/Stone.Rate.Models.AssemblyInfo.cs
+Stone.Rate.Provider/bin/Debug/netstandard2.0/Stone.Rate.ServiceProvider.deps.json
+Stone.Rate.Provider/bin/Debug/netstandard2.0/Microsoft.Extensions.Options.xml
+Stone.Rate.Provider/bin/Debug/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml
+Stone.Rate.Provider/bin/Debug/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.xml
+Stone.Rate.Provider/obj/Debug/netstandard2.0/Stone.Rate.ServiceProvider.csproj.FileListAbsolute.txt
+Stone.Rate.Provider/obj/Debug/netstandard2.0/Stone.Rate.ServiceProvider.csproj.CopyComplete

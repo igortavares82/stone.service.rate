@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stone.Rate.ServiceProvider"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stone.Rate.DependencyInjection", "Stone.Rate.DependencyInjection\Stone.Rate.DependencyInjection.csproj", "{B0ECDA42-15E9-48F4-9412-AB2FC3F31ACB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stone.Rate.Models", "Stone.Rate.Models\Stone.Rate.Models.csproj", "{69FA5DBB-1C2C-4E57-BF4C-690ACC97A5D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,10 @@ Global
 		{B0ECDA42-15E9-48F4-9412-AB2FC3F31ACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0ECDA42-15E9-48F4-9412-AB2FC3F31ACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0ECDA42-15E9-48F4-9412-AB2FC3F31ACB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69FA5DBB-1C2C-4E57-BF4C-690ACC97A5D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69FA5DBB-1C2C-4E57-BF4C-690ACC97A5D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69FA5DBB-1C2C-4E57-BF4C-690ACC97A5D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69FA5DBB-1C2C-4E57-BF4C-690ACC97A5D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -66,6 +72,7 @@ Global
 		{05EB8504-472B-48BF-83F6-DE4C27F07CC5} = {BB054A62-8F98-42B7-9E07-8D262F6057E6}
 		{B6A95B9A-42E0-4062-B2EC-471AFB3E409C} = {0C34FB3B-179F-413A-A81E-14C67F9018A3}
 		{B0ECDA42-15E9-48F4-9412-AB2FC3F31ACB} = {0C34FB3B-179F-413A-A81E-14C67F9018A3}
+		{69FA5DBB-1C2C-4E57-BF4C-690ACC97A5D2} = {BB054A62-8F98-42B7-9E07-8D262F6057E6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0887E700-C996-4D23-8E54-D4FCE82DF138}
