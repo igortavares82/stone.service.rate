@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Stone.Rate.ServiceProvider.Options
 {
-    public class ServiceCharginOptions
+    public class ServiceChargeOptions
     {
         public string Address { get; set; }
         public string RegisterUri { get; set; }

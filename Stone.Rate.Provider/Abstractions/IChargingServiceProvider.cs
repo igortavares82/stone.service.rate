@@ -7,6 +7,6 @@ namespace Stone.Rate.ServiceProvider.Abstractions
 {
     public interface IChargingServiceProvider
     {
-        Task<bool> RegisterAsync(List<ChargeMessage> chargeMessage);
+        Task<bool> RegisterAsync(List<ChargeMessage> chargeMessages);
     }
 }

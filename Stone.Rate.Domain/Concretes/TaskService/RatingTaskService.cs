@@ -5,7 +5,6 @@ using Stone.Framework.Result.Concretes;
 using Stone.Framework.Result.Enums;
 using Stone.Rate.Domain.Abstractions.TaskService;
 using Stone.Rate.Domain.Mappers;
-using Stone.Rate.Models.Dto;
 using Stone.Rate.ServiceProvider.Abstractions;
 using System;
 using System.Collections.Generic;
@@ -25,19 +24,19 @@ namespace Stone.Rate.Domain.Concretes.TaskService
             ChargingServiceProvider = chargingServiceProvider;
         }
 
-        public async Task<IDomainResult<List<RatingDto>>> DoRateAsync()
+        public async Task<IDomainResult<List<ChargeMessage>>> DoRateAsync()
         {
-            IDomainResult<List<RatingDto>> result = new DomainResult<List<RatingDto>>();
+            IDomainResult<List<ChargeMessage>> result = new DomainResult<List<ChargeMessage>>();
 
             List<ClientMessage> clients = await ClientServiceProvider.GetAsync();
-            List<ChargeMessage> charges = RatingMapper.MapTo(clients, ConvertCpfToValue);
+            result.Data = RatingMapper.MapTo(clients, ConvertCpfToValue);
 
-            bool registerResult = await ChargingServiceProvider.RegisterAsync(null);
+            bool registerResult = await ChargingServiceProvider.RegisterAsync(result.Data);
 
             if (registerResult)
             {
                 result.Data = null;
-                result.Messages.Add("All clientes' charges were rated");
+                result.Messages.Add("All clients' charges were rated");
             }
             else
             {

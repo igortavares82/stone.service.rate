@@ -1,6 +1,6 @@
 {
   "ServiceClientOptions": {
-    "Address": "",
-    "GetClientsUri": ""
+    "Address": "http://localhost:51095/api",
+    "GetUri": "/client"
   }
 }

@@ -5,6 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Stone.Rate.Application\Stone.Rate.Application.csproj" />
+    <ProjectReference Include="..\Stone.Rate.Domain\Stone.Rate.Domain.csproj" />
     <ProjectReference Include="..\Stone.Rate.Provider\Stone.Rate.ServiceProvider.csproj" />
   </ItemGroup>
 

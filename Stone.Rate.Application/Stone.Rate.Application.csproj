@@ -4,4 +4,18 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Stone.Rate.Domain\Stone.Rate.Domain.csproj" />
+    <ProjectReference Include="..\Stone.Rate.Messages\Stone.Rate.Messages.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Stone.Charging.Messages">
+      <HintPath>..\References\Stone.Charging.Messages.dll</HintPath>
+    </Reference>
+    <Reference Include="Stone.Framework.Result">
+      <HintPath>..\References\Stone.Framework.Result.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

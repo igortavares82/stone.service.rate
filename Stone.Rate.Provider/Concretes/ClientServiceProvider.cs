@@ -24,8 +24,8 @@ namespace Stone.Rate.ServiceProvider.Concretes
 
         public async Task<List<ClientMessage>> GetAsync()
         {
-            IApplicationResult<List<ClientMessage>> result = await HttpConnector.GetAsync<List<ClientMessage>>(Options.GetUri);
-            return result.Data;
+            IApplicationResult<ClientMessage[]> result = await HttpConnector.GetAsync<ClientMessage[]>(Options.GetUri);
+            return null; // result.Data;
         }
     }
 }

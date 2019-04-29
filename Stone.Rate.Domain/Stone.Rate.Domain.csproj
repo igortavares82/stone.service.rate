@@ -15,6 +15,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Reference Include="Stone.Charging.Messages">
+      <HintPath>..\References\Stone.Charging.Messages.dll</HintPath>
+    </Reference>
+    <Reference Include="Stone.Clients.Messages">
+      <HintPath>..\References\Stone.Clients.Messages.dll</HintPath>
+    </Reference>
     <Reference Include="Stone.Framework.Result">
       <HintPath>..\References\Stone.Framework.Result.dll</HintPath>
     </Reference>

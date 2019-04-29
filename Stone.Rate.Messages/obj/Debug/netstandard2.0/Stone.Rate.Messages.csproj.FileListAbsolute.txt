@@ -1,0 +1,9 @@
+C:\projects\stone\stone.service.rate\Stone.Rate.Messages\bin\Debug\netstandard2.0\Stone.Rate.Messages.deps.json
+C:\projects\stone\stone.service.rate\Stone.Rate.Messages\bin\Debug\netstandard2.0\Stone.Rate.Messages.dll
+C:\projects\stone\stone.service.rate\Stone.Rate.Messages\bin\Debug\netstandard2.0\Stone.Rate.Messages.pdb
+C:\projects\stone\stone.service.rate\Stone.Rate.Messages\obj\Debug\netstandard2.0\Stone.Rate.Messages.csprojAssemblyReference.cache
+C:\projects\stone\stone.service.rate\Stone.Rate.Messages\obj\Debug\netstandard2.0\Stone.Rate.Messages.csproj.CoreCompileInputs.cache
+C:\projects\stone\stone.service.rate\Stone.Rate.Messages\obj\Debug\netstandard2.0\Stone.Rate.Messages.AssemblyInfoInputs.cache
+C:\projects\stone\stone.service.rate\Stone.Rate.Messages\obj\Debug\netstandard2.0\Stone.Rate.Messages.AssemblyInfo.cs
+C:\projects\stone\stone.service.rate\Stone.Rate.Messages\obj\Debug\netstandard2.0\Stone.Rate.Messages.dll
+C:\projects\stone\stone.service.rate\Stone.Rate.Messages\obj\Debug\netstandard2.0\Stone.Rate.Messages.pdb

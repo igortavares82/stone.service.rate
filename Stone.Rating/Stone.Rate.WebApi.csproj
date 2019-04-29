@@ -10,6 +10,22 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Stone.Rate.Application\Stone.Rate.Application.csproj" />
+    <ProjectReference Include="..\Stone.Rate.DependencyInjection\Stone.Rate.DependencyInjection.csproj" />
+    <ProjectReference Include="..\Stone.Rate.Provider\Stone.Rate.ServiceProvider.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Stone.Framework.Filter">
+      <HintPath>..\References\Stone.Framework.Filter.dll</HintPath>
+    </Reference>
+    <Reference Include="Stone.Framework.Result">
+      <HintPath>..\References\Stone.Framework.Result.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
