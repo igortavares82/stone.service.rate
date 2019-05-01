@@ -5,6 +5,7 @@ using Stone.Rate.Application.Abstractions;
 using Stone.Rate.Application.Mappers;
 using Stone.Rate.Domain.Abstractions.TaskService;
 using Stone.Rate.Messages;
+using Stone.Rate.Models.Dto;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -21,7 +22,7 @@ namespace Stone.Rate.Application.Concretes
 
         public async Task<IApplicationResult<List<RateMessage>>> DoRateAsync()
         {
-            IDomainResult<List<ChargeMessage>> domainResult = await RatingTaskService.DoRateAsync();
+            IDomainResult<List<ChargeDto>> domainResult = await RatingTaskService.DoRateAsync();
             return ResultMapper.MapFromDomainResult(domainResult, (domain) => RateMapper.MapTo(domain));
         }
     }

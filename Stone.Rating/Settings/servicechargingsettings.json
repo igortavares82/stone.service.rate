@@ -1,6 +1,6 @@
 {
   "ServiceChargeOptions": {
     "Address": "http://localhost:59761/api",
-    "GetClientsUri": "/charge/batch"
+    "RegisterUri": "/charge/batch"
   }
 }

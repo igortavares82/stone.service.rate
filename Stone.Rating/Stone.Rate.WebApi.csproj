@@ -26,6 +26,9 @@
     <Reference Include="Stone.Framework.Result">
       <HintPath>..\References\Stone.Framework.Result.dll</HintPath>
     </Reference>
+    <Reference Include="Stone.Framework.Validator">
+      <HintPath>..\References\Stone.Framework.Validator.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

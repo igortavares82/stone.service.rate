@@ -47,3 +47,12 @@ Stone.Rate.Provider/bin/Debug/netstandard2.0/Microsoft.Extensions.DependencyInje
 Stone.Rate.Provider/bin/Debug/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.xml
 Stone.Rate.Provider/obj/Debug/netstandard2.0/Stone.Rate.ServiceProvider.csproj.FileListAbsolute.txt
 Stone.Rate.Provider/obj/Debug/netstandard2.0/Stone.Rate.ServiceProvider.csproj.CopyComplete
+Stone.Rating/obj/Debug/netcoreapp2.1/Stone.Rate.WebApi.csproj.FileListAbsolute.txt
+Stone.Rating/bin/Debug/netcoreapp2.1/Stone.Rate.WebApi.deps.json
+Stone.Rate.Models/obj/Debug/netstandard2.0/Stone.Rate.Models.csproj.FileListAbsolute.txt
+Stone.Rate.Domain/obj/Debug/netstandard2.0/Stone.Rate.Domain.csproj.FileListAbsolute.txt
+Stone.Rate.Domain/bin/Debug/netstandard2.0/Stone.Rate.Domain.deps.json
+Stone.Rate.DependencyInjection/obj/Debug/netstandard2.0/Stone.Rate.DependencyInjection.csproj.FileListAbsolute.txt
+Stone.Rate.DependencyInjection/bin/Debug/netstandard2.0/Stone.Rate.DependencyInjection.deps.json
+Stone.Rate.Application/obj/Debug/netstandard2.0/Stone.Rate.Application.csproj.FileListAbsolute.txt
+Stone.Rate.Application/bin/Debug/netstandard2.0/Stone.Rate.Application.deps.json
