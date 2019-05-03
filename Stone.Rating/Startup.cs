@@ -38,7 +38,7 @@ namespace Stone.Rating
 
             services.AddSwaggerGen(s =>
             {
-                s.SwaggerDoc("v1", new Info { Title = "Charging service API", Version = "v1" });
+                s.SwaggerDoc("v1", new Info { Title = "Rate service API", Version = "v1" });
 
                 string caminhoAplicacao = PlatformServices.Default.Application.ApplicationBasePath;
                 string nomeAplicacao = PlatformServices.Default.Application.ApplicationName;
