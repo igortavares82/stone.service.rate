@@ -40,9 +40,9 @@ namespace Stone.Rating
             {
                 s.SwaggerDoc("v1", new Info { Title = "Rate service API", Version = "v1" });
 
-                string caminhoAplicacao = PlatformServices.Default.Application.ApplicationBasePath;
-                string nomeAplicacao = PlatformServices.Default.Application.ApplicationName;
-                string caminhoXmlDoc = Path.Combine(caminhoAplicacao, $"{nomeAplicacao}.xml");
+                string applicationPath = PlatformServices.Default.Application.ApplicationBasePath;
+                string applicationName = PlatformServices.Default.Application.ApplicationName;
+                string xmlDocPath = Path.Combine(applicationPath, $"{applicationName}.xml");
             });
         }
 
@@ -65,6 +65,9 @@ namespace Stone.Rating
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "Charge application");
             });
+
+
+
         }
     }
 }

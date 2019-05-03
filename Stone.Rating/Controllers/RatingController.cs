@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Stone.Rate.WebApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/rating")]
     [ApiController]
     public class RatingController : ControllerBase
     {
@@ -21,8 +21,8 @@ namespace Stone.Rate.WebApi.Controllers
         [HttpGet("wellcome"), Produces("text/plain", Type = typeof(string))]
         public string GetWellcome() => "Wellcome to charging service!";
 
-        [HttpPost, Produces("application/json", Type = typeof(IApplicationResult<List<RateMessage>>))]
-        public async Task<IActionResult> DoRateAsync()
+        [HttpGet, Produces("application/json", Type = typeof(IApplicationResult<List<RateMessage>>))]
+        public async Task<IActionResult> Get()
         {
             return await RateApplication.DoRateAsync();
         }
