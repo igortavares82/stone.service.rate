@@ -7,6 +7,8 @@ using Stone.Framework.Filter.Concretes;
 using Stone.Rate.DependencyInjection;
 using System.IO;
 using Stone.Rate.WebApi.Configurations;
+using Microsoft.Extensions.PlatformAbstractions;
+using Swashbuckle.AspNetCore.Swagger;
 
 namespace Stone.Rating
 {
@@ -33,6 +35,15 @@ namespace Stone.Rating
             services.AddMvc(options => options.Filters.Add(new ValidateModelStateAttribute()));
 
             DIFactory.Configure(services);
+
+            services.AddSwaggerGen(s =>
+            {
+                s.SwaggerDoc("v1", new Info { Title = "Charging service API", Version = "v1" });
+
+                string caminhoAplicacao = PlatformServices.Default.Application.ApplicationBasePath;
+                string nomeAplicacao = PlatformServices.Default.Application.ApplicationName;
+                string caminhoXmlDoc = Path.Combine(caminhoAplicacao, $"{nomeAplicacao}.xml");
+            });
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
@@ -48,6 +59,12 @@ namespace Stone.Rating
 
             app.UseHttpsRedirection();
             app.UseMvc();
+
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Charge application");
+            });
         }
     }
 }

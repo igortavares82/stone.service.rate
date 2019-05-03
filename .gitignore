@@ -56,3 +56,5 @@ Stone.Rate.DependencyInjection/obj/Debug/netstandard2.0/Stone.Rate.DependencyInj
 Stone.Rate.DependencyInjection/bin/Debug/netstandard2.0/Stone.Rate.DependencyInjection.deps.json
 Stone.Rate.Application/obj/Debug/netstandard2.0/Stone.Rate.Application.csproj.FileListAbsolute.txt
 Stone.Rate.Application/bin/Debug/netstandard2.0/Stone.Rate.Application.deps.json
+Stone.Rating/bin/Debug/netcoreapp2.1/Stone.Rate.WebApi.xml
+.vs/Stone.Rate/DesignTimeBuild/.dtbcache
