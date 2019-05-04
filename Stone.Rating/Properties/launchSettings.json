@@ -12,7 +12,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "api/rating/wellcome",
+      "launchUrl": "api/rate/wellcome",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
