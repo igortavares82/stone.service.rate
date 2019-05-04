@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace Stone.Rate.WebApi.Controllers
 {
-    [Route("api/rating")]
+    [Route("api/rate")]
     [ApiController]
-    public class RatingController : ControllerBase
+    public class RateController : ControllerBase
     {
         private IRatingApplication RateApplication { get; }
 
-        public RatingController(IRatingApplication rateApplication)
+        public RateController(IRatingApplication rateApplication)
         {
             RateApplication = rateApplication;
         }
