@@ -13,9 +13,9 @@ namespace Stone.Rate.Application.Concretes
 {
     public class RatingApplication : IRatingApplication
     {
-        private IRatingTaskService RatingTaskService { get; }
+        private IRateTaskService RatingTaskService { get; }
 
-        public RatingApplication(IRatingTaskService ratingTaskService)
+        public RatingApplication(IRateTaskService ratingTaskService)
         {
             RatingTaskService = ratingTaskService;
         }

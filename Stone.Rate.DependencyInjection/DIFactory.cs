@@ -15,7 +15,7 @@ namespace Stone.Rate.DependencyInjection
         public static void Configure(IServiceCollection services)
         {
             services.AddScoped<IRatingApplication, RatingApplication>();
-            services.AddScoped<IRatingTaskService, RatingTaskService>();
+            services.AddScoped<IRateTaskService, RateTaskService>();
             services.AddScoped<IClientServiceProvider, ClientServiceProvider>();
             services.AddScoped<IChargingServiceProvider, ChargingServiceProvider>();
             services.AddTransient<IHttpConnector, HttpConnector>();

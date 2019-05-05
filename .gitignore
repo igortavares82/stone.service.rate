@@ -58,3 +58,16 @@ Stone.Rate.Application/obj/Debug/netstandard2.0/Stone.Rate.Application.csproj.Fi
 Stone.Rate.Application/bin/Debug/netstandard2.0/Stone.Rate.Application.deps.json
 Stone.Rating/bin/Debug/netcoreapp2.1/Stone.Rate.WebApi.xml
 .vs/Stone.Rate/DesignTimeBuild/.dtbcache
+Stone.Rate.UnitTest/obj/project.assets.json
+Stone.Rate.UnitTest/obj/Stone.Rate.UnitTest.csproj.nuget.g.targets
+Stone.Rate.UnitTest/obj/Stone.Rate.UnitTest.csproj.nuget.g.props
+Stone.Rate.UnitTest/obj/Debug/netcoreapp2.1/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+Stone.Rate.UnitTest/obj/Debug/netcoreapp2.1/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+Stone.Rate.UnitTest/obj/Debug/netcoreapp2.1/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+Stone.Rate.UnitTest/obj/Debug/netcoreapp2.1/Stone.Rate.UnitTest.csproj.FileListAbsolute.txt
+Stone.Rate.UnitTest/obj/Debug/netcoreapp2.1/Stone.Rate.UnitTest.csproj.CopyComplete
+Stone.Rate.UnitTest/obj/Debug/netcoreapp2.1/Stone.Rate.UnitTest.Program.cs
+Stone.Rate.UnitTest/obj/Debug/netcoreapp2.1/Stone.Rate.UnitTest.AssemblyInfo.cs
+Stone.Rate.UnitTest/bin/Debug/netcoreapp2.1/Stone.Rate.UnitTest.runtimeconfig.json
+Stone.Rate.UnitTest/bin/Debug/netcoreapp2.1/Stone.Rate.UnitTest.runtimeconfig.dev.json
+Stone.Rate.UnitTest/bin/Debug/netcoreapp2.1/Stone.Rate.UnitTest.deps.json

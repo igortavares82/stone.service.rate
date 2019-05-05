@@ -19,14 +19,14 @@ namespace Stone.Rate.ServiceProvider.Concretes
         public ChargingServiceProvider(IHttpConnector httpConnector, IOptions<ServiceChargeOptions> options)
         {
             HttpConnector = httpConnector;
-            Options = options.Value;
+            Options = options?.Value;
 
-            HttpConnector.SetAddress(Options.Address);
+            HttpConnector.SetAddress(Options?.Address);
         }
 
         public async Task<bool> RegisterAsync(List<ChargeDto> chargeMessages)
         {
-            IApplicationResult<bool> result = await HttpConnector.PostAsync<List<ChargeMessage>, bool>(Options.RegisterUri, ChargeMapper.MapTo(chargeMessages));
+            IApplicationResult<bool> result = await HttpConnector.PostAsync<List<ChargeMessage>, bool>(Options?.RegisterUri, ChargeMapper.MapTo(chargeMessages));
             return result.Data;
         }
     }

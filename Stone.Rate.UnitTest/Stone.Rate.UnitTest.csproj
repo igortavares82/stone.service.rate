@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
+    <PackageReference Include="NSubstitute" Version="4.0.0" />
+    <PackageReference Include="xunit" Version="2.4.0" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="3 - DataProviders\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Stone.Rate.Domain\Stone.Rate.Domain.csproj" />
+    <ProjectReference Include="..\Stone.Rate.Provider\Stone.Rate.ServiceProvider.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Stone.Framework.Http">
+      <HintPath>..\References\Stone.Framework.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="Stone.Framework.Result">
+      <HintPath>..\References\Stone.Framework.Result.dll</HintPath>
+    </Reference>
+    <Reference Include="Stone.Framework.Utils">
+      <HintPath>..\References\Stone.Framework.Utils.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

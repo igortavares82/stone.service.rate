@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Stone.Rate.Domain.Abstractions.TaskService
 {
-    public interface IRatingTaskService
+    public interface IRateTaskService
     {
         Task<IDomainResult<List<ChargeDto>>> DoRateAsync();
     }
