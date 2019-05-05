@@ -14,10 +14,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="3 - DataProviders\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Stone.Rate.Domain\Stone.Rate.Domain.csproj" />
     <ProjectReference Include="..\Stone.Rate.Provider\Stone.Rate.ServiceProvider.csproj" />
   </ItemGroup>
